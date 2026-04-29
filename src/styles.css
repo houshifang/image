@@ -159,6 +159,41 @@ button {
   white-space: nowrap;
 }
 
+.topbar-star {
+  width: auto;
+  padding: 0 10px 0 9px;
+  gap: 6px;
+  border: 1px solid var(--line-strong);
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.topbar-star:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.topbar-star svg {
+  width: 16px;
+  height: 16px;
+}
+
+.topbar-star-count {
+  display: inline-flex;
+  align-items: center;
+  min-width: 18px;
+  justify-content: center;
+  padding-left: 6px;
+  border-left: 1px solid var(--line-strong);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  transition: color 200ms ease;
+}
+
+.topbar-star:hover .topbar-star-count {
+  color: var(--text);
+}
+
 .layout {
   display: grid;
   grid-template-columns: 220px 1fr;

@@ -852,3 +852,43 @@ requestAnimationFrame(() => {
   moveIndicator();
   movePill();
 });
+
+(function loadGitHubStars() {
+  const el = document.querySelector("#topbarStarCount");
+  if (!el) return;
+
+  const repo = "houshifang/image";
+  const cacheKey = `gh-stars:${repo}`;
+  const cacheTTL = 1000 * 60 * 30;
+
+  const formatCount = (n) => {
+    if (n < 1000) return String(n);
+    if (n < 10000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "k";
+    return Math.round(n / 1000) + "k";
+  };
+
+  const setCount = (n) => {
+    el.textContent = formatCount(n);
+  };
+
+  try {
+    const cached = JSON.parse(localStorage.getItem(cacheKey) || "null");
+    if (cached && Date.now() - cached.time < cacheTTL) {
+      setCount(cached.value);
+      return;
+    }
+  } catch {}
+
+  fetch(`https://api.github.com/repos/${repo}`)
+    .then((res) => (res.ok ? res.json() : Promise.reject()))
+    .then((data) => {
+      const stars = data.stargazers_count ?? 0;
+      setCount(stars);
+      try {
+        localStorage.setItem(cacheKey, JSON.stringify({ value: stars, time: Date.now() }));
+      } catch {}
+    })
+    .catch(() => {
+      el.textContent = "★";
+    });
+})();
