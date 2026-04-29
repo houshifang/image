@@ -182,7 +182,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以生活方式品牌视觉设计师的标准，制作竖版 3D 旅行海报，主题「去班味·旅行指南 VACATION GUIDE · 打包快乐 即刻出发 Pack your bags and go · WORK LESS ENJOY MORE · LET'S GO」。淡蓝背景，3D 女孩戴黄色渔夫帽和墨镜瘫坐在彩色渐变沙发上喝饮料，搭配绿色行李箱、笑脸花朵、相机、定位图标、彩色丝带，底部有逃离日常·探索美好·放松身心·收获快乐 4 个标签，多巴胺度假风。"
+      "前沿互联网运营视觉设计大师的标准，behance、dribbble 、 3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：去班味 旅行指南"
   },
   {
     image: "./assets/ops-c4d/urban-nomad-project.webp",
@@ -190,7 +190,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以新锐潮牌主视觉设计师的标准，制作竖版 3D 海报，主题「城市游牧计划 URBAN NOMAD PROJECT · 打破边界 探索无限可能 · WORK & TRAVEL ANYWHERE · #2024 COLLECTION」。米白背景，3D 潮酷青年戴粉帽穿荧光绿卫衣坐在彩色渐变巨型几何体上抱着笔记本电脑，周围环绕东方明珠、上海中心等城市建筑剪影、棕榈树、双肩包、水壶，多巴胺配色、未来都市感。"
+      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：城市游牧计划"
   },
   {
     image: "./assets/ops-c4d/join-us-recruitment.webp",
@@ -206,7 +206,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以年轻潮流品牌视觉设计师的标准，制作竖版 3D 主视觉海报，主题「放肆去玩 PLAY WITHOUT LIMITS · 释放多巴胺 · LIVE OUT LOUD PLAY FREE · FUN IS MY SUPERPOWER」。淡粉背景，紫色和玫红色立体大字 放肆 去玩，3D 潮酷男孩戴黄色墨镜、紫色棒球帽、手拿奶茶悬浮在空中，搭配紫色甜甜圈、粉色弹簧、星星气泡，多巴胺配色、潮玩可爱风。"
+      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：放肆去玩"
   },
   {
     image: "./assets/ops-c4d/play-wild-skateboard.webp",
@@ -214,7 +214,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以潮流品牌运营视觉设计师的标准，制作竖版 3D 主视觉海报，主题「放肆去玩 Let's Play · 去热爱·去探索·去创造 LOVE, EXPORE, CREATE」。米白背景搭配彩色丝带流体造型，3D 潮酷青年戴葡萄造型 VR 眼镜、穿黄色卫衣脚踩粉色滑板腾空跳跃，周围有彩色气泡、星星、几何元素，整体张扬有活力、Y2K 多巴胺风格。"
+      "Cutting-edge standards for internet visual design masters, Behance and Dribbble 3D illustration style posters, C4D style, soft light rendering, high saturation, dopamine, abstract art, clean minimalist background, visually fresh, youthful, and cheerful, exquisite and delicate. The theme is: Play Wildly"
   },
   {
     image: "./assets/ops-c4d/may-day-mountain-tent.webp",
@@ -230,7 +230,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以节日营销视觉设计师的标准，为 51 劳动节制作竖版 3D 海报，主题「51 去露营 · 去拥抱大自然 · LET'S GO CAMPING 一起去露营吧」。蓝天绿地背景，黄色立体大字 51，可爱 3D 女孩戴渔夫帽和墨镜坐在露营椅上喝饮料，旁边有黄色帐篷、彩旗、登山背包、马灯和小桌餐食，黏土质感，温馨明亮。"
+      "互联网运营视觉设计大师的标准，dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：51去露营"
   },
   {
     image: "./assets/ops-c4d/may-day-island-tent.webp",
@@ -238,7 +238,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以节日营销视觉设计师的标准，为 51 劳动节制作竖版 3D 海报，主题「51 去露营 Go Camping · 去拥抱自然的多巴胺」。蓝色天空背景，白色立体气球字 51 与 去露营，绿色草地小岛上有一顶黄色帐篷、木质野餐桌椅、复古马灯、笑脸雏菊和松树，整体清新治愈、3D 黏土风、童趣感强。"
+      "互联网运营视觉设计大师的标准，dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：51去露营"
   },
   {
     image: "./assets/ops-c4d/youth-shop-carnival.webp",
@@ -246,7 +246,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以资深电商运营视觉设计师的标准，为青年潮流商城制作竖版 3D 主视觉海报，主题「YOUTH SHOP CARNIVAL 欢乐购」。蓝天云朵背景，立体毛绒大字 YOUTH，棕色手提包内装满潮玩好物：智能手表、心形毛绒挂件、复古游戏机、向日葵玩偶，搭配 ¥199 限时特惠价签和 UP TO 50% OFF 标签，整体风格活泼可爱、年轻化、3D 黏土质感。"
+      "Style: 3D C4D render, Pop Mart style, toy aesthetic, vibrant lighting.\nMaterials: Multi-texture contrast (fluffy plush, premium leather, glossy metal, electronic screen).\nElements: Anthropomorphic cartoon hand, luxury bag overflowing with cute objects, vintage gadgets, neon glowing heart.\nColors: High-contrast palette (Electric Blue, Warm Brown, Canary Yellow), soft cloud background.\nVibe: Youthful shopping festival, playful, trendy, healing."
   },
   {
     image: "./assets/posters/algorithm-fog.webp",
