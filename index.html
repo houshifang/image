@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image2 · AI 视觉灵感库</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Image2 首页">
+        <img class="brand-logo" src="./assets/logo.svg" alt="" width="40" height="40" />
+        <span class="brand-name">Image2 Hub</span>
+      </a>
+      <nav class="primary-nav" id="primaryNav" aria-label="一级分类">
+        <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+      </nav>
+      <div class="topbar-actions">
+        <a class="topbar-link" href="https://x.com/faaaannng" target="_blank" rel="noopener noreferrer" aria-label="作者 X 主页" title="X / Twitter">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/>
+          </svg>
+        </a>
+        <a class="topbar-link topbar-link-text" href="https://fanghome.netlify.app/" target="_blank" rel="noopener noreferrer">联系作者</a>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="二级分类">
+        <div class="sub-wrap">
+          <span class="sub-pill" id="subPill" aria-hidden="true"></span>
+          <ul class="sub-nav" id="subNav"></ul>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="grid" id="grid" aria-live="polite"></div>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">已复制提示词</div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="查看大图" hidden>
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="关闭大图">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6L18 18M18 6L6 18" />
+        </svg>
+      </button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="上一张">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15 5L8 12L15 19" />
+        </svg>
+      </button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="下一张">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M9 5L16 12L9 19" />
+        </svg>
+      </button>
+      <div class="lightbox-stage">
+        <figure class="lightbox-figure">
+          <img class="lightbox-image" id="lightboxImage" alt="" />
+          <figcaption class="lightbox-caption">
+            <p class="lightbox-prompt" id="lightboxPrompt"></p>
+            <div class="lightbox-actions">
+              <span class="lightbox-counter" id="lightboxCounter"></span>
+              <button class="lightbox-copy" id="lightboxCopy" type="button">复制提示词</button>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="./src/script.js" defer></script>
+  </body>
+</html>
