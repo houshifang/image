@@ -378,6 +378,27 @@ button {
   will-change: transform;
 }
 
+.home-tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    110deg,
+    var(--bg-elevated) 30%,
+    rgba(255, 255, 255, 0.045) 50%,
+    var(--bg-elevated) 70%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+  transition: opacity 0.45s ease;
+}
+
+.home-tile.is-loaded::before {
+  opacity: 0;
+  animation: none;
+}
+
 .home-tile::after {
   content: "";
   position: absolute;
@@ -389,11 +410,20 @@ button {
 }
 
 .home-tile img {
+  position: relative;
+  z-index: 1;
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 320ms ease;
+  opacity: 0;
+  transition:
+    transform 320ms ease,
+    opacity 0.45s ease;
+}
+
+.home-tile.is-loaded img {
+  opacity: 1;
 }
 
 .home-tile:hover img,
@@ -418,6 +448,27 @@ button {
   will-change: transform;
 }
 
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    110deg,
+    var(--bg-elevated) 30%,
+    rgba(255, 255, 255, 0.045) 50%,
+    var(--bg-elevated) 70%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+  transition: opacity 0.45s ease;
+}
+
+.card.is-loaded::before {
+  opacity: 0;
+  animation: none;
+}
+
 .card::after {
   content: "";
   position: absolute;
@@ -431,11 +482,40 @@ button {
 }
 
 .card img {
+  position: relative;
+  z-index: 1;
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.45s ease;
   will-change: transform;
+}
+
+.card.is-loaded img {
+  opacity: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-tile::before,
+  .card::before {
+    animation: none;
+  }
+  .home-tile img,
+  .card img,
+  .lightbox-image {
+    transition: none;
+  }
 }
 
 .card-overlay {
@@ -575,6 +655,7 @@ button {
 }
 
 .lightbox-figure {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,6 +675,34 @@ button {
     0 30px 80px rgba(0, 0, 0, 0.55),
     0 0 0 1px rgba(255, 255, 255, 0.04);
   user-select: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.lightbox-image.is-loaded {
+  opacity: 1;
+}
+
+.lightbox-figure.is-loading::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  margin: -18px 0 0 -18px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-top-color: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  animation: lightbox-spin 0.9s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes lightbox-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .lightbox-caption {

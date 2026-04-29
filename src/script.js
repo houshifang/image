@@ -348,6 +348,22 @@ gsap.defaults({ duration: 0.5, ease: "power2.out" });
 let isFirstPrimaryRender = true;
 let isFirstSubRender = true;
 
+function bindImageLoading(root) {
+  if (!root) return;
+  const images = root.querySelectorAll(".home-tile img, .card img");
+  images.forEach((img) => {
+    const parent = img.closest(".home-tile, .card");
+    if (!parent) return;
+    if (img.complete && img.naturalWidth > 0) {
+      parent.classList.add("is-loaded");
+      return;
+    }
+    const onDone = () => parent.classList.add("is-loaded");
+    img.addEventListener("load", onDone, { once: true });
+    img.addEventListener("error", onDone, { once: true });
+  });
+}
+
 const emptyStateHTML = `
   <div class="empty-state" role="status">
     <p class="empty-state-text">作者正在加急制作中</p>
@@ -448,6 +464,8 @@ function renderHome() {
         .join("")}
     </div>
   `;
+
+  bindImageLoading(grid);
 
   if (reducedMotion) return;
   gsap.fromTo(
@@ -570,6 +588,7 @@ function renderGrid() {
     )
     .join("");
 
+  bindImageLoading(grid);
   animateCards();
 }
 
@@ -780,11 +799,26 @@ function applyLightboxItem() {
   const item = visibleItems[lightboxIndex];
   if (!item) return;
 
+  const figure = lightboxImage.closest(".lightbox-figure");
+  lightboxImage.classList.remove("is-loaded");
+  figure?.classList.add("is-loading");
+
+  const handleLoaded = () => {
+    lightboxImage.classList.add("is-loaded");
+    figure?.classList.remove("is-loading");
+  };
+  lightboxImage.addEventListener("load", handleLoaded, { once: true });
+  lightboxImage.addEventListener("error", handleLoaded, { once: true });
+
   lightboxImage.src = item.image;
   lightboxImage.alt = item.prompt;
   lightboxPrompt.textContent = item.prompt;
   lightboxCounter.textContent = `${lightboxIndex + 1} / ${visibleItems.length}`;
   lightboxCopy.dataset.prompt = encodeURIComponent(item.prompt);
+
+  if (lightboxImage.complete && lightboxImage.naturalWidth > 0) {
+    handleLoaded();
+  }
 
   const onlyOne = visibleItems.length <= 1;
   lightboxPrev.disabled = onlyOne;
