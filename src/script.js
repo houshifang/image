@@ -12,43 +12,32 @@ const categories = [
   {
     id: "poster",
     name: "海报",
-    sub: ["电影海报", "拼贴海报", "演出活动", "发布会", "节日营销"]
+    sub: ["电影海报", "拼贴海报", "艺术海报"]
   },
   {
     id: "illustration",
     name: "插画",
     sub: ["扁平", "情景故事", "3D", "治愈"]
-  },
-  {
-    id: "brand",
-    name: "品牌",
-    sub: ["Logo", "VI", "包装", "宣传"]
-  },
-  {
-    id: "concept",
-    name: "概念",
-    sub: ["科幻", "暗黑", "自然", "未来都市"]
   }
 ];
 
 const homeSections = [
   { cat: "ops" },
-  { cat: "ops", sub: "KV海报" },
-  { cat: "app" },
-  { cat: "poster" },
   { cat: "poster", sub: "拼贴海报" },
+  { cat: "ops", sub: "KV海报" },
+  { cat: "poster" },
+  { cat: "poster", sub: "艺术海报" },
   { cat: "app", sub: "金刚区图标" },
   { cat: "app", sub: "空状态" },
   { cat: "illustration" },
-  { cat: "brand" }
+  { cat: "app" }
 ];
 
 const categoryIntros = {
   app: "覆盖图标、启动页、功能图和应用截图，适合移动产品的视觉起稿。",
   ops: "3D 海报和 KV 海报，帮助快速找到运营设计方向。",
-  poster: "电影海报、拼贴海报、发布会和节日营销海报，提供更有情绪的画面参考。",
-  illustration: "扁平、3D 和情景故事插画，适合产品介绍与品牌表达。",
-  brand: "Logo、VI、包装和宣传视觉，聚焦品牌识别与质感呈现。"
+  poster: "电影海报、拼贴海报与艺术海报，提供更有情绪的画面参考。",
+  illustration: "扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
 };
 
 const items = [
@@ -451,6 +440,54 @@ const items = [
     ratio: "9 / 16",
     prompt:
       "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: City Sonic Arts Festival 2024 — finding echo in the noise of the city. Aspect ratio 9:16, 4K resolution."
+  },
+  {
+    image: "./assets/posters/art/refuse-involution.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Refuse Involution.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/art/information-overload.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Information Overload.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/art/recycle-rebuild-tomorrow.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Re:Cycle — Redesign Today, Rebuild Tomorrow.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/art/new-intelligence.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: What's Inside the New Intelligence — The Age of AI.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/art/stay-focused.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Stay Focused.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/art/daydream-worker.webp",
+    cat: "poster",
+    sub: "艺术海报",
+    ratio: "9 / 16",
+    prompt:
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Daydream Worker — Creating my true self in the ocean of fiction.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   }
 ];
 
@@ -566,7 +603,7 @@ function renderHome() {
   grid.innerHTML = `
     <section class="home-hero" aria-labelledby="homeTitle">
       <h1 id="homeTitle">给互联网设计师的 AI 图片提示词灵感库</h1>
-      <p>覆盖 APP、运营、海报、插画与品牌等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成</p>
+      <p>覆盖 APP、运营、海报与插画等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成</p>
     </section>
     <div class="home-sections">
       ${homeSections
