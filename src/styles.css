@@ -92,9 +92,9 @@ button {
   border: 0;
   border-radius: 999px;
   background: transparent;
-  color: var(--muted);
+  color: rgba(244, 244, 245, 0.72);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   white-space: nowrap;
   transition: color 200ms ease;
 }
@@ -262,7 +262,7 @@ button {
   border: 0;
   border-radius: 8px;
   background: transparent;
-  color: var(--muted);
+  color: rgba(244, 244, 245, 0.72);
   font-size: 14px;
   text-align: left;
   transition: color 200ms ease;
@@ -435,6 +435,15 @@ button {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.grid[data-sub="KV海报"] {
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.home-section[data-sub="KV海报"] .home-section-row {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .card {
@@ -633,7 +642,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 48px 64px;
+  padding: 40px 72px;
   background: rgba(0, 0, 0, 0.88);
   backdrop-filter: blur(18px);
   opacity: 0;
@@ -656,19 +665,30 @@ button {
 
 .lightbox-figure {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: 360px 1fr 360px;
+  align-items: stretch;
+  gap: 28px;
   margin: 0;
-  max-width: min(1200px, 100%);
+  width: min(1280px, 100%);
+  height: 100%;
   max-height: 100%;
+}
+
+.lightbox-image-wrap {
+  grid-column: 2;
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .lightbox-image {
   display: block;
   max-width: 100%;
-  max-height: calc(100vh - 220px);
+  max-height: 100%;
   object-fit: contain;
   border-radius: 14px;
   box-shadow:
@@ -683,7 +703,7 @@ button {
   opacity: 1;
 }
 
-.lightbox-figure.is-loading::before {
+.lightbox-image-wrap.is-loading::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -706,28 +726,70 @@ button {
 }
 
 .lightbox-caption {
-  width: 100%;
-  max-width: 760px;
-  padding: 14px 18px;
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  padding: 18px;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: rgba(20, 20, 22, 0.7);
+  background: rgba(20, 20, 22, 0.78);
   color: rgba(255, 255, 255, 0.86);
+  overflow: hidden;
 }
 
-.lightbox-prompt {
-  margin: 0 0 12px;
-  font-size: 13px;
-  line-height: 1.65;
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-.lightbox-actions {
+.lightbox-caption-head {
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  margin-bottom: 12px;
+}
+
+.lightbox-caption-title {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.lightbox-prompt {
+  flex: 1 1 auto;
+  margin: 0;
+  padding-right: 8px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
+
+.lightbox-prompt::-webkit-scrollbar {
+  width: 6px;
+}
+
+.lightbox-prompt::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+}
+
+.lightbox-prompt::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.lightbox-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
 }
 
 .lightbox-counter {
@@ -755,6 +817,37 @@ button {
   background: #fff;
   border-color: #fff;
   color: #000;
+}
+
+@media (max-width: 1299px) and (min-width: 861px) {
+  .lightbox {
+    padding: 36px 40px;
+  }
+  .lightbox:not([data-layout="wide"]) .lightbox-figure {
+    grid-template-columns: 280px 1fr 280px;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 861px) {
+  .lightbox[data-layout="wide"] .lightbox-figure {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 16px;
+    width: min(1400px, 100%);
+  }
+
+  .lightbox[data-layout="wide"] .lightbox-image-wrap {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .lightbox[data-layout="wide"] .lightbox-caption {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    max-height: min(28vh, 240px);
+  }
 }
 
 .lightbox-close,
@@ -840,7 +933,7 @@ body.lightbox-open {
   position: fixed;
   bottom: 28px;
   left: 50%;
-  z-index: 50;
+  z-index: 200;
   padding: 10px 18px;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
@@ -917,17 +1010,61 @@ body.lightbox-open {
     gap: 12px;
   }
 
+  .home-section[data-sub="KV海报"] .home-section-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
+  .grid[data-sub="KV海报"] {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+
   .lightbox {
-    padding: 56px 12px 24px;
+    padding: 56px 12px 16px;
+  }
+
+  .lightbox-figure {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .lightbox-image-wrap {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    min-height: 0;
   }
 
   .lightbox-image {
-    max-height: calc(100vh - 280px);
     border-radius: 10px;
+  }
+
+  .lightbox-caption {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    max-height: min(38vh, 320px);
+    padding: 14px 16px;
+  }
+
+  .lightbox-caption-head {
+    margin-bottom: 10px;
+  }
+
+  .lightbox-prompt {
+    font-size: 12.5px;
+    line-height: 1.65;
+  }
+
+  .lightbox-actions {
+    margin-top: 10px;
+    padding-top: 10px;
   }
 
   .lightbox-close {

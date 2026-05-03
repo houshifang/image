@@ -67,11 +67,16 @@
       </button>
       <div class="lightbox-stage">
         <figure class="lightbox-figure">
-          <img class="lightbox-image" id="lightboxImage" alt="" />
+          <div class="lightbox-image-wrap">
+            <img class="lightbox-image" id="lightboxImage" alt="" />
+          </div>
           <figcaption class="lightbox-caption">
+            <div class="lightbox-caption-head">
+              <span class="lightbox-caption-title">提示词</span>
+              <span class="lightbox-counter" id="lightboxCounter"></span>
+            </div>
             <p class="lightbox-prompt" id="lightboxPrompt"></p>
             <div class="lightbox-actions">
-              <span class="lightbox-counter" id="lightboxCounter"></span>
               <button class="lightbox-copy" id="lightboxCopy" type="button">复制提示词</button>
             </div>
           </figcaption>
