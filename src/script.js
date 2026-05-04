@@ -1235,6 +1235,31 @@ requestAnimationFrame(() => {
   movePill();
 });
 
+(function setupFooter() {
+  const yearEl = document.querySelector("#footerYear");
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  const scrollToTop = () => {
+    const behavior = reducedMotion ? "auto" : "smooth";
+    window.scrollTo({ top: 0, behavior });
+  };
+
+  const footerBrand = document.querySelector("#footerBrand");
+  footerBrand?.addEventListener("click", (event) => {
+    event.preventDefault();
+    if (state.view !== "home") selectHome();
+    scrollToTop();
+  });
+
+  const footerCats = document.querySelector("#footerCats");
+  footerCats?.addEventListener("click", (event) => {
+    const btn = event.target.closest("button[data-cat]");
+    if (!btn) return;
+    selectCategory(btn.dataset.cat);
+    scrollToTop();
+  });
+})();
+
 (function loadGitHubStars() {
   const el = document.querySelector("#topbarStarCount");
   if (!el) return;
