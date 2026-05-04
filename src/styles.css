@@ -292,7 +292,7 @@ button {
 }
 
 .home {
-  width: min(1280px, 100%);
+  width: min(1560px, 100%);
   margin: 0 auto;
 }
 
@@ -364,7 +364,7 @@ button {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: start;
-  gap: 16px;
+  gap: 18px;
 }
 
 .home-tile {

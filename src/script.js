@@ -17,19 +17,21 @@ const categories = [
   {
     id: "illustration",
     name: "插画",
-    sub: ["扁平", "情景故事", "3D", "治愈"]
+    sub: ["黏土", "多巴胺", "夸张", "扁平", "情景故事", "3D", "治愈"]
   }
 ];
 
 const homeSections = [
   { cat: "ops" },
   { cat: "poster", sub: "拼贴海报" },
+  { cat: "illustration", sub: "多巴胺" },
   { cat: "ops", sub: "KV海报" },
   { cat: "poster" },
   { cat: "poster", sub: "艺术海报" },
   { cat: "app", sub: "金刚区图标" },
   { cat: "app", sub: "空状态" },
-  { cat: "illustration" },
+  { cat: "illustration", sub: "黏土" },
+  { cat: "illustration", sub: "夸张" },
   { cat: "app" }
 ];
 
@@ -37,7 +39,7 @@ const categoryIntros = {
   app: "覆盖图标、启动页、功能图和应用截图，适合移动产品的视觉起稿。",
   ops: "3D 海报和 KV 海报，帮助快速找到运营设计方向。",
   poster: "电影海报、拼贴海报与艺术海报，提供更有情绪的画面参考。",
-  illustration: "扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
+  illustration: "黏土、多巴胺、夸张、扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
 };
 
 const items = [
@@ -488,6 +490,158 @@ const items = [
     ratio: "9 / 16",
     prompt:
       "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Daydream Worker — Creating my true self in the ocean of fiction.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/illustration/clay/clay-muzik-radio.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"Muzik\" portable boombox music player"
+  },
+  {
+    image: "./assets/illustration/clay/clay-game-on-arcade.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"GAME ON\" retro handheld game console"
+  },
+  {
+    image: "./assets/illustration/clay/clay-smooth-blender.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"SMOOTH\" fruit smoothie blender"
+  },
+  {
+    image: "./assets/illustration/clay/clay-hello-flower.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"HELLO!\" retro TV flower planter"
+  },
+  {
+    image: "./assets/illustration/clay/clay-vinyl-player.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"GOOD VIBES\" portable vinyl record player"
+  },
+  {
+    image: "./assets/illustration/clay/clay-vending-machine.webp",
+    cat: "illustration",
+    sub: "黏土",
+    ratio: "3 / 4",
+    prompt:
+      "3D illustration, clay style, soft plastic material, toy-like character design,\n\nartistic abstract sculpting, dopamine color palette,\n\nsoft studio lighting, global illumination, soft shadows,\n\npastel base tones with vibrant accents,\n\ncentered composition, single hero object, clean background,\n\nfloating decorative elements,\n\nsticker collage details, UI labels, badges, playful icons (stars, music notes, shapes),\n\nmicro typography, fictional brand text,\n\njoyful, playful, whimsical yet well-designed,\n\neditorial-grade quality, Behance / Awwwards standard.\n\n— Theme: \"HAVE A NICE DAY!\" beverage vending machine"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-gift-haul.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a happy boy hugging a giant stack of colorful gift boxes, holiday shopping haul"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-present-dash.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a leaping delivery boy carrying a towering pile of birthday presents, gift-run dash"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-office-rush.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a glasses-wearing office worker dashing with a cardboard box of files and a splashing coffee cup, Monday morning rush"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-skater-idea.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a hoodie-wearing creative kid skateboarding in mid-air with a laptop labeled \"IDEA\", brainstorming on the move"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-traveler-map.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a backpacker explorer pointing forward with a folded map and camera around the neck, solo travel adventure"
+  },
+  {
+    image: "./assets/illustration/dopamine/dopamine-saas-workspace.webp",
+    cat: "illustration",
+    sub: "多巴胺",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a SaaS-hoodie product designer floating with a laptop, surrounded by dashboard UI cards, charts and task widgets, hero illustration for a SaaS landing page"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-app-bounce.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a tiny-headed kid mid-air bounce surrounded by floating mobile app UI cards (calendar, checkmark, photo icon), playful onboarding illustration"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-pastel-leap.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a pastel-colored acrobat character throwing both hands up in a triumphant mid-air leap on chunky color-block sneakers"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-strawberry-rocker.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a strawberry-themed musician kid with a strawberry-shaped electric guitar, throwing a rock-on hand sign, fruity music festival vibe"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-camping-invite.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a backpacker holding a wooden sign that says \"一起来露营！\" with tent and outdoor badges, weekend camping invitation"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-designer-stylus.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a beret-wearing illustrator holding a stylus pen mid-air, brushes peeking out of pocket, designer's creative leap"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-bike-trick.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a cyclist popping a wheelie on a yellow bike with one hand holding an energy drink, weekend bike ride trick"
+  },
+  {
+    image: "./assets/illustration/exaggerated/exaggerated-dog-walk.webp",
+    cat: "illustration",
+    sub: "夸张",
+    ratio: "3 / 4",
+    prompt:
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a young guy mid-leap walking his happy beagle on a leash, weekend dog walk vibe"
   }
 ];
 
