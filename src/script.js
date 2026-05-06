@@ -27,13 +27,13 @@ const homeSections = [
   { cat: "illustration", sub: "多巴胺" },
   { cat: "poster", sub: "渐变艺术" },
   { cat: "poster", sub: "科技海报" },
-  { cat: "ops", sub: "KV海报" },
   { cat: "poster" },
   { cat: "poster", sub: "艺术海报" },
   { cat: "app", sub: "金刚区图标" },
   { cat: "app", sub: "空状态" },
   { cat: "illustration", sub: "黏土" },
   { cat: "illustration", sub: "夸张" },
+  { cat: "ops", sub: "KV海报" },
   { cat: "app" }
 ];
 
