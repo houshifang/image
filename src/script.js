@@ -12,7 +12,7 @@ const categories = [
   {
     id: "poster",
     name: "海报",
-    sub: ["电影海报", "拼贴海报", "艺术海报", "渐变艺术"]
+    sub: ["电影海报", "拼贴海报", "艺术海报", "渐变艺术", "科技海报"]
   },
   {
     id: "illustration",
@@ -26,6 +26,7 @@ const homeSections = [
   { cat: "poster", sub: "拼贴海报" },
   { cat: "illustration", sub: "多巴胺" },
   { cat: "poster", sub: "渐变艺术" },
+  { cat: "poster", sub: "科技海报" },
   { cat: "ops", sub: "KV海报" },
   { cat: "poster" },
   { cat: "poster", sub: "艺术海报" },
@@ -39,7 +40,7 @@ const homeSections = [
 const categoryIntros = {
   app: "覆盖图标、启动页、功能图和应用截图，适合移动产品的视觉起稿。",
   ops: "3D 海报和 KV 海报，帮助快速找到运营设计方向。",
-  poster: "电影海报、拼贴海报、艺术海报与渐变艺术，提供更有情绪的画面参考。",
+  poster: "电影海报、拼贴海报、艺术海报、渐变艺术与科技海报，提供更有情绪的画面参考。",
   illustration: "黏土、多巴胺、夸张、扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
 };
 
@@ -539,6 +540,54 @@ const items = [
     ratio: "9 / 16",
     prompt:
       "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Summer Bubble Lab. 4K."
+  },
+  {
+    image: "./assets/posters/tech/super-developer-launch.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: Super Developer."
+  },
+  {
+    image: "./assets/posters/tech/hackathon-2025.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: HACKATHON — Build, Innovate, Impact."
+  },
+  {
+    image: "./assets/posters/tech/future-one-breakthrough.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: Future One — The Next Breakthrough, new product imminent."
+  },
+  {
+    image: "./assets/posters/tech/shanghai-ai-coding-2026.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: Shanghai AI Coding Competition 2026."
+  },
+  {
+    image: "./assets/posters/tech/the-future-is-now.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: The Future Is Now — technology changes the world, innovation drives the future."
+  },
+  {
+    image: "./assets/posters/tech/infinite-loading.webp",
+    cat: "poster",
+    sub: "科技海报",
+    ratio: "9 / 16",
+    prompt:
+      "Create an image. International top-tier tech launch visual poster, minimalist futuristic design, deep pure black background, generous negative space, 9:16 vertical composition. Tech visual style similar to Apple, Toss, Notion and Linear. Clean minimalist 3D hero graphic; rendering quality: premium C4D / Octane Render look, frosted glass material. Typography and layout: centered composition. Theme: Infinite Loading."
   },
   {
     image: "./assets/illustration/clay/clay-muzik-radio.webp",
