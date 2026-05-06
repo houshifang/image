@@ -49,7 +49,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '比熊商店'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Bichon Shop'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/xiaoxiang-fast-food.webp",
@@ -57,7 +57,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '小象快餐'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Little Elephant Fast Food'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/pigeon-audiobook.webp",
@@ -65,7 +65,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '鸽子听书'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Pigeon Audiobook'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/flash-chat.webp",
@@ -73,7 +73,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '闪聊'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Flash Chat'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/quick-vocabulary.webp",
@@ -81,7 +81,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '快速记单词'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Quick Vocabulary'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/whiskey-glass.webp",
@@ -89,7 +89,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '喝杯酒'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Have a Drink'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/app-icons/flower-delivery.webp",
@@ -97,7 +97,7 @@ const items = [
     sub: "App 图标",
     ratio: "1 / 1",
     prompt:
-      "A macOS app icon for an app named '鲜花快送'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
+      "A macOS app icon for an app named 'Flower Express'. A single squircle icon with smooth continuous rounded corners, centered on a white canvas with padding, occupying about 80% of the canvas. Modern light skeuomorphic macOS App Store style. Only one icon."
   },
   {
     image: "./assets/kingkong-icons/ingredients-set-a.webp",
@@ -105,7 +105,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以生鲜电商 App 视觉设计师的标准，制作首页金刚区图标，包含米饭、面包、牛奶、鸡蛋、肉类、蔬菜、苹果、海鲜、坚果、食用油、酱油、蛋糕等 12 个生鲜食材分类，统一白色背景圆角卡片，3D 拟物质感，干净精致，适合首页类目导航。"
+      "Following the standards of a fresh-grocery e-commerce app visual designer, design a set of homepage king-kong category icons covering 12 fresh ingredient categories — rice, bread, milk, eggs, meat, vegetables, apples, seafood, nuts, cooking oil, soy sauce and cake. Unified white background rounded-corner cards, 3D skeuomorphic texture, clean and refined, suited for homepage category navigation."
   },
   {
     image: "./assets/kingkong-icons/food-set-a.webp",
@@ -113,7 +113,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以餐饮外卖 App 视觉设计师的标准，制作首页金刚区图标，包含面条、汉堡、蛋糕、包子、披萨、咖啡、薯条、沙拉、酸奶、冰淇淋、饼干、牛奶等 12 个外卖品类，统一黏土风格 3D 拟物，圆润可爱，白色背景圆角卡片。"
+      "Following the standards of a food-delivery app visual designer, design a set of homepage king-kong category icons covering 12 takeaway categories — noodles, burger, cake, baozi (steamed bun), pizza, coffee, fries, salad, yogurt, ice cream, biscuits and milk. Unified clay-style 3D skeuomorphism, round and cute, on white background rounded-corner cards."
   },
   {
     image: "./assets/kingkong-icons/ingredients-set-b.webp",
@@ -121,7 +121,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以高端生鲜会员 App 视觉设计师的标准，制作首页金刚区图标，包含牛油果、面包、酸奶、三文鱼、番茄、巧克力、燕麦、蜂蜜、奶酪、西兰花、鸡蛋、草莓等 12 个食材，写实质感、白色背景圆角卡片，突出新鲜、健康、高级感。"
+      "Following the standards of a premium fresh-grocery membership app visual designer, design a set of homepage king-kong category icons covering 12 ingredients — avocado, bread, yogurt, salmon, tomato, chocolate, oats, honey, cheese, broccoli, eggs and strawberry. Photorealistic texture, white background rounded-corner cards, emphasizing freshness, health and a premium feel."
   },
   {
     image: "./assets/kingkong-icons/food-set-b.webp",
@@ -129,7 +129,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以本地生活外卖 App 视觉设计师的标准，制作首页金刚区图标，包含汉堡、蛋糕、牛肉面、咖啡、奶茶、薯条、包子、披萨、烤鸡、沙拉、酸奶、西瓜等 12 个外卖品类，黏土风格 3D 拟物，圆润饱满，白色背景圆角卡片。"
+      "Following the standards of a local-life food-delivery app visual designer, design a set of homepage king-kong category icons covering 12 takeaway categories — burger, cake, beef noodles, coffee, milk tea, fries, baozi (steamed bun), pizza, roast chicken, salad, yogurt and watermelon. Clay-style 3D skeuomorphism, round and full, on white background rounded-corner cards."
   },
   {
     image: "./assets/kingkong-icons/beauty-cosmetics.webp",
@@ -137,7 +137,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以美妆电商 App 视觉设计师的标准，制作粉色调首页金刚区图标，包含口红、粉饼、眼影、化妆刷、粉底液、眼线液笔、睫毛膏、腮红、香水、面霜、面膜、润唇膏 12 个美妆品类，柔光高级质感，白色背景圆角卡片，每张图带文字标签。"
+      "Following the standards of a beauty e-commerce app visual designer, design a pink-toned set of homepage king-kong category icons covering 12 beauty categories — lipstick, face powder, eyeshadow, makeup brush, foundation, eyeliner pen, mascara, blush, perfume, face cream, face mask and lip balm. Soft-lit premium texture, white background rounded-corner cards, each tile with a text label."
   },
   {
     image: "./assets/kingkong-icons/office-productivity.webp",
@@ -145,7 +145,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以企业办公协作 App 视觉设计师的标准，制作蓝色系首页金刚区图标，包含文档、表格、演示、邮件、日历、云盘、任务、文件夹、通讯录、会议、审批、通知 12 个办公功能，3D 拟物质感，白色背景圆角卡片，每张图带文字标签。"
+      "Following the standards of an enterprise office-collaboration app visual designer, design a blue-toned set of homepage king-kong category icons covering 12 office functions — document, spreadsheet, presentation, email, calendar, cloud drive, tasks, folder, contacts, meeting, approval and notifications. 3D skeuomorphic texture, white background rounded-corner cards, each tile with a text label."
   },
   {
     image: "./assets/kingkong-icons/fitness-equipment.webp",
@@ -153,7 +153,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以健身电商 App 视觉设计师的标准，制作黑色高级感首页金刚区图标，包含哑铃、壶铃、杠铃片、跑步机、动感单车、跳绳、摇摇杯、蛋白粉、运动手表、瑜伽垫、训练手套、体脂秤 12 个健身品类，写实拟物质感，白色背景圆角卡片。"
+      "Following the standards of a fitness e-commerce app visual designer, design a sleek black premium set of homepage king-kong category icons covering 12 fitness categories — dumbbell, kettlebell, weight plate, treadmill, spin bike, jump rope, shaker bottle, protein powder, sports watch, yoga mat, training gloves and body-fat scale. Photorealistic skeuomorphic texture, white background rounded-corner cards."
   },
   {
     image: "./assets/kingkong-icons/music-audio.webp",
@@ -161,7 +161,7 @@ const items = [
     sub: "金刚区图标",
     ratio: "9 / 16",
     prompt:
-      "以音乐播放 App 视觉设计师的标准，制作首页金刚区图标，包含音符、黑胶、均衡器、耳机、心动音乐、音乐文件夹、视频、麦克风、播放列表、扬声器、CD、收音机 12 个音乐功能，3D 拟物质感、彩色点缀，白色背景圆角卡片。"
+      "Following the standards of a music-player app visual designer, design a set of homepage king-kong category icons covering 12 music functions — music note, vinyl record, equalizer, headphones, liked music, music folder, video, microphone, playlist, speaker, CD and radio. 3D skeuomorphic texture with colorful accents, on white background rounded-corner cards."
   },
   {
     image: "./assets/empty-states/social.webp",
@@ -217,7 +217,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble 、 3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：去班味 旅行指南"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Shake Off the Office Vibe — Travel Guide."
   },
   {
     image: "./assets/ops-c4d/urban-nomad-project.webp",
@@ -225,7 +225,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：城市游牧计划"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Urban Nomad Project."
   },
   {
     image: "./assets/ops-c4d/join-us-recruitment.webp",
@@ -233,7 +233,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以互联网公司品牌运营视觉设计师的标准，制作竖版 3D 招聘海报，主题「JOIN US 加入我们 · 团队招新 · WE NEED YOU · 寻找发光的你 · INNOVATE COLLABORATE GROW」。米白背景，居中堆叠紫色粉色黄色立体几何造型与笑脸气球，中央悬挂工牌 JOIN US，列出创意策划、视觉设计、内容运营、社群运营 4 个岗位，整体年轻、热情、潮玩 3D 黏土风。"
+      "Following the standards of an internet brand-operations visual designer, create a vertical 3D recruitment poster with the theme \"JOIN US · Team Recruitment · WE NEED YOU · Find Your Glow · INNOVATE COLLABORATE GROW\". Off-white background, a centered stack of purple, pink and yellow 3D geometric shapes mixed with smiley balloons, a JOIN US ID badge hanging in the middle, listing 4 open roles — Creative Planning, Visual Design, Content Operations, Community Operations. Overall young, enthusiastic, designer-toy 3D clay style."
   },
   {
     image: "./assets/ops-c4d/play-wild-dopamine.webp",
@@ -241,7 +241,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：放肆去玩"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually cheerful, refined and delicate. Theme: Play Wildly."
   },
   {
     image: "./assets/ops-c4d/play-wild-skateboard.webp",
@@ -257,7 +257,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "以节日营销视觉设计师的标准，为 51 劳动节制作竖版 3D 海报，主题「51 去露营 · 去拥抱自然·去感受美好 · LET'S GO CAMPING」。米白色简洁背景，黄色与粉色立体气球字 51 和绿色黑色立体字 去露营，下方一座雪顶小山、黄白条纹帐篷、营地篝火、笑脸花朵和小溪，整体小清新、3D 黏土风、留白构图。"
+      "Following the standards of a holiday marketing visual designer, create a vertical 3D poster for May 1st Labor Day with the theme \"5/1 Go Camping · Embrace Nature · Feel the Good · LET'S GO CAMPING\". Off-white minimalist background, yellow-and-pink 3D balloon letters \"5/1\" and green-and-black 3D letters \"Go Camping\". Below: a snow-capped little mountain, a yellow-and-white striped tent, a campfire, smiley flowers and a small stream. Overall fresh and small-town style, 3D clay aesthetic, generous whitespace composition."
   },
   {
     image: "./assets/ops-c4d/may-day-girl-camping.webp",
@@ -265,7 +265,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "互联网运营视觉设计大师的标准，dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：51去露营"
+      "Internet operations visual design master standard, Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, abstract art, clean minimalist background, visually cheerful, refined and delicate. Theme: 5/1 Go Camping."
   },
   {
     image: "./assets/ops-c4d/may-day-island-tent.webp",
@@ -273,7 +273,7 @@ const items = [
     sub: "3D海报",
     ratio: "9 / 16",
     prompt:
-      "互联网运营视觉设计大师的标准，dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、抽象艺术、干净极简背景、视觉感受欢快、精致、细腻。主题是：51去露营"
+      "Internet operations visual design master standard, Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, abstract art, clean minimalist background, visually cheerful, refined and delicate. Theme: 5/1 Go Camping."
   },
   {
     image: "./assets/ops-c4d/youth-shop-carnival.webp",
@@ -289,7 +289,7 @@ const items = [
     sub: "KV海报",
     ratio: "16 / 9",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：马路生活节。比例：16:9 4K"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Street Life Festival. Ratio: 16:9, 4K."
   },
   {
     image: "./assets/ops-kv/street-life-festival-street.webp",
@@ -297,7 +297,7 @@ const items = [
     sub: "KV海报",
     ratio: "16 / 9",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 插画风格的海报、C4D 风格、柔光渲染、高饱和度、多巴胺、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：马路生活节。比例：16:9 4K"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D illustration style poster, C4D style, soft-light rendering, high saturation, dopamine palette, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Street Life Festival. Ratio: 16:9, 4K."
   },
   {
     image: "./assets/ops-kv/morning-energy-breakfast.webp",
@@ -305,7 +305,7 @@ const items = [
     sub: "KV海报",
     ratio: "16 / 9",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 粘土插画风格的竖屏海报、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：早餐元气季。比例：16:9 4K"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D clay-illustration style vertical poster, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Morning Energy Breakfast Season. Ratio: 16:9, 4K."
   },
   {
     image: "./assets/ops-kv/weekend-food-festival.webp",
@@ -313,7 +313,7 @@ const items = [
     sub: "KV海报",
     ratio: "16 / 9",
     prompt:
-      "前沿互联网运营视觉设计大师的标准，behance、dribbble  3D 粘土插画风格的竖屏海报、抽象艺术、干净极简背景、视觉感受新颖年轻欢快、精致、细腻。主题是：周末美食节。比例：16:9 4K"
+      "Cutting-edge internet operations visual design master standard, Behance / Dribbble 3D clay-illustration style vertical poster, abstract art, clean minimalist background, visually fresh, youthful and cheerful, refined and delicate. Theme: Weekend Food Festival. Ratio: 16:9, 4K."
   },
   {
     image: "./assets/posters/algorithm-fog.webp",
@@ -321,7 +321,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：算法雾都"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Algorithm Fog City."
   },
   {
     image: "./assets/posters/snowfall-like-fire.webp",
@@ -329,7 +329,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：发如雪"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Hair Like Snow."
   },
   {
     image: "./assets/posters/love-in-21bc.webp",
@@ -337,7 +337,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：爱在西元前"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Love in Another Era."
   },
   {
     image: "./assets/posters/sunny-day.webp",
@@ -345,7 +345,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：晴天"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Sunny Day."
   },
   {
     image: "./assets/posters/wanderer-of-the-world.webp",
@@ -353,7 +353,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：天涯过客"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Wanderer at the Horizon."
   },
   {
     image: "./assets/posters/love-confession-balloon.webp",
@@ -361,7 +361,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：告白气球"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Love Confession Balloon."
   },
   {
     image: "./assets/posters/cold-war-1994.webp",
@@ -369,7 +369,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：寒战"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Cold War."
   },
   {
     image: "./assets/posters/tempted-three-hearts.webp",
@@ -377,7 +377,7 @@ const items = [
     sub: "电影海报",
     ratio: "9 / 16",
     prompt:
-      "模仿电影海报制作大师，国际电影海报质量，制作一张电影海报，电影名字是：三心两意"
+      "Emulate a master of cinematic poster design, with international film-poster quality. Create a movie poster. Film title: Tempted Hearts."
   },
   {
     image: "./assets/posters/collage/neo-creation-exhibition.webp",
@@ -385,7 +385,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Neo Creation Exhibition 2024 — New Objects for a New Age. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Neo Creation Exhibition 2024 — New Objects for a New Age. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/neo-realm.webp",
@@ -393,7 +393,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Neo Realm International Design & Visionary Art Exhibition. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Neo Realm International Design & Visionary Art Exhibition. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/graphic-design-exhibition.webp",
@@ -401,7 +401,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: International Graphic Design Exhibition 2025 — Creative Connects the Future. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: International Graphic Design Exhibition 2025 — Creative Connects the Future. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/vintage-market-yellow.webp",
@@ -409,7 +409,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Weekend Vintage Market — fluorescent yellow gramophone edition. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Weekend Vintage Market — fluorescent yellow gramophone edition. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/vintage-market-pink.webp",
@@ -417,7 +417,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Weekend Vintage Market — magenta gramophone edition. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Weekend Vintage Market — magenta gramophone edition. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/langyuan-arts-festival.webp",
@@ -425,7 +425,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Langyuan Arts Festival 2024 — a celebration of creativity & community. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Langyuan Arts Festival 2024 — a celebration of creativity & community. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/pet-market.webp",
@@ -433,7 +433,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Pet Market — pets and people live together. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: Pet Market — pets and people live together. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/collage/city-sonic-arts-festival.webp",
@@ -441,7 +441,7 @@ const items = [
     sub: "拼贴海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. Chinese title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: City Sonic Arts Festival 2024 — finding echo in the noise of the city. Aspect ratio 9:16, 4K resolution."
+      "International top-tier graphic design, Neo editorial magazine layout, design exhibition poster. A stylized exhibition title as the dominant visual with custom-designed artistic typography. Tightly composed editorial layout. Fluorescent color blocks as borders, overlaid with paper texture and subtle noise grain to evoke a sticker-collage feel. Black-and-white photographic background base. High-saturation single-color 3D object with a slightly rough surface material. Collage composition that is irregular yet retains design order. Minimal whitespace background. Magazine-grade professional layout. Decorative small elements such as stamps, arrows, English captions and the ® symbol. International design exhibition tone, awwwards / Behance professional caliber. Poster theme: City Sonic Arts Festival 2024 — finding echo in the noise of the city. Aspect ratio 9:16, 4K resolution."
   },
   {
     image: "./assets/posters/art/refuse-involution.webp",
@@ -449,7 +449,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Refuse Involution.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Refuse Involution.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/posters/art/information-overload.webp",
@@ -457,7 +457,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Information Overload.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Information Overload.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/posters/art/recycle-rebuild-tomorrow.webp",
@@ -465,7 +465,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Re:Cycle — Redesign Today, Rebuild Tomorrow.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Re:Cycle — Redesign Today, Rebuild Tomorrow.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/posters/art/new-intelligence.webp",
@@ -473,7 +473,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: What's Inside the New Intelligence — The Age of AI.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: What's Inside the New Intelligence — The Age of AI.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/posters/art/stay-focused.webp",
@@ -481,7 +481,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Stay Focused.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Stay Focused.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/posters/art/daydream-worker.webp",
@@ -489,7 +489,7 @@ const items = [
     sub: "艺术海报",
     ratio: "9 / 16",
     prompt:
-      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Daydream Worker — Creating my true self in the ocean of fiction.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, Chinese subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+      "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Daydream Worker — Creating my true self in the ocean of fiction.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
   },
   {
     image: "./assets/illustration/clay/clay-muzik-radio.webp",
@@ -617,7 +617,7 @@ const items = [
     sub: "夸张",
     ratio: "3 / 4",
     prompt:
-      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a backpacker holding a wooden sign that says \"一起来露营！\" with tent and outdoor badges, weekend camping invitation"
+      "A complete single 3D illustration, exaggerated artistic editorial illustration style, not storyboard, not a collage layout.\n\nThe subject is an exaggerated cartoon character with a tiny head, round chubby body, extremely elongated limbs, oversized hands and oversized shoes, off-balance center of gravity, frozen mid-air in a dramatic jumping pose, with strong tension and comedic energy.\n\nOverall form looks like a soft sculpture toy — round, chunky, bouncy, exaggerated — not anatomically correct.\n\nMaterials are matte soft rubber, fuzzy fabric, knitted texture, plasticine feel, with fine fiber details, slight grain, hand-sculpted touch — avoid glossy plastic toy look, avoid translucent glass look, avoid high reflections.\n\nHigh-saturation dopamine color palette, bold color clashes, large flat color blocks, bright but not over-glowing.\n\nClean white background, minimal space, only a soft oval shadow on the ground, no complex scene.\n\nFloating abstract graphic elements around the character: stars, squiggle lines, balls, cubes, icons, symbols — all rendered as soft rubber or paper props to enhance motion and design feel.\n\nSoft studio lighting, global illumination, soft shadows, low contrast, clean commercial render.\n\nC4D / Blender 3D illustration, stylized soft sculpture, matte clay material, fuzzy fabric texture, knitted surface detail, playful editorial 3D illustration, high quality.\n\n— Theme: a backpacker holding a wooden sign that says \"Let's go camping!\" with tent and outdoor badges, weekend camping invitation"
   },
   {
     image: "./assets/illustration/exaggerated/exaggerated-designer-stylus.webp",
