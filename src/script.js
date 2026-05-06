@@ -12,7 +12,7 @@ const categories = [
   {
     id: "poster",
     name: "海报",
-    sub: ["电影海报", "拼贴海报", "艺术海报"]
+    sub: ["电影海报", "拼贴海报", "艺术海报", "渐变艺术"]
   },
   {
     id: "illustration",
@@ -25,6 +25,7 @@ const homeSections = [
   { cat: "ops" },
   { cat: "poster", sub: "拼贴海报" },
   { cat: "illustration", sub: "多巴胺" },
+  { cat: "poster", sub: "渐变艺术" },
   { cat: "ops", sub: "KV海报" },
   { cat: "poster" },
   { cat: "poster", sub: "艺术海报" },
@@ -38,7 +39,7 @@ const homeSections = [
 const categoryIntros = {
   app: "覆盖图标、启动页、功能图和应用截图，适合移动产品的视觉起稿。",
   ops: "3D 海报和 KV 海报，帮助快速找到运营设计方向。",
-  poster: "电影海报、拼贴海报与艺术海报，提供更有情绪的画面参考。",
+  poster: "电影海报、拼贴海报、艺术海报与渐变艺术，提供更有情绪的画面参考。",
   illustration: "黏土、多巴胺、夸张、扁平、3D 和情景故事插画，适合产品介绍与品牌表达。"
 };
 
@@ -490,6 +491,54 @@ const items = [
     ratio: "9 / 16",
     prompt:
       "International top-tier graphic design poster, neo-editorial / contemporary editorial style, D&AD / Awwwards / Behance award-grade visual quality.\n\nTheme: Daydream Worker — Creating my true self in the ocean of fiction.\n\nBuild a powerful core visual metaphor for the theme — translate the abstract concept into a sculptural, iconic, installation-like object. The core object should appear cut, layered, stretched, stacked, reconstructed, wrapped or deconstructed, carrying clear conceptual meaning rather than decorative ornament.\n\nClean, minimal light-gray background with generous whitespace.\n\nHigh-contrast modern editorial typographic layout: oversized bold black English headline at the top, secondary subtitle, annotation text, exhibition-style information hierarchy.\n\nSwiss editorial grid system with intentional breaks, asymmetric balance, precise alignment, strong rhythm, refined spacing.\n\nCentered or near-centered composition with strong vertical tension.\n\nMaterials & rendering: premium product-rendering quality, matte surfaces, subtle reflections, hard-edge cuts, slight inter-layer translucency, suspended sliced structures, refined details, crisp silhouettes.\n\nColor: predominantly black, white and gray with a single striking accent color and very limited secondary accents — restrained, high-end, contemporary.\n\nLighting: soft studio lighting, subtle shadows, ultra-clean rendering, highly polished but non-glossy, razor-sharp details.\n\nMood: conceptual, intellectual, exhibition-grade, contemporary, premium, restrained, iconic.\n\nAspect ratio 9:16, 4K, ultra sharp, ultra detailed, ultra clean, high resolution."
+  },
+  {
+    image: "./assets/posters/gradient-art/infinite-love-marathon-guitar.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Infinite Love Marathon Concerts. 4K."
+  },
+  {
+    image: "./assets/posters/gradient-art/strawberry-music-festival.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Strawberry Music Festival. 4K."
+  },
+  {
+    image: "./assets/posters/gradient-art/infinite-love-marathon-floral.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Infinite Love Marathon Concerts (floral key visual). 4K."
+  },
+  {
+    image: "./assets/posters/gradient-art/xiami-music-festival.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Xiami Music Festival. 4K."
+  },
+  {
+    image: "./assets/posters/gradient-art/weekend-daydream-plan.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Weekend Daydream Plan. 4K."
+  },
+  {
+    image: "./assets/posters/gradient-art/summer-bubble-lab.webp",
+    cat: "poster",
+    sub: "渐变艺术",
+    ratio: "9 / 16",
+    prompt:
+      "Swiss International style, modern minimalist flat vector poster, 9:16 aspect ratio, diagonal sliced layout. Top-left: Traditional Chinese title in serif type paired with elegant connected script serif English. Bottom-right: core symbolic graphic for the poster — abstract flat vector illustration, fluorescent color gradients, subtle grain noise, decorative pixel icons, contemporary cultural festival poster, modern design exhibition quality. Theme: Summer Bubble Lab. 4K."
   },
   {
     image: "./assets/illustration/clay/clay-muzik-radio.webp",
