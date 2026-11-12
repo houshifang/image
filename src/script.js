@@ -17,16 +17,18 @@ const categories = [
   {
     id: "illustration",
     name: "插画",
-    sub: ["黏土", "多巴胺", "夸张", "扁平", "情景故事", "3D", "治愈"]
+    sub: ["黏土", "多巴胺", "夸张", "表现主义肖像", "超现实叙事", "扁平", "情景故事", "3D", "治愈"]
   },
   {
     id: "ip",
     name: "IP",
-    sub: ["卡通IP", "AI Bot IP 角色设计"]
+    sub: ["卡通IP", "AI Bot IP 角色设计", "软雕塑角色", "毛绒角色"]
   }
 ];
 
 const homeSections = [
+  { cat: "ip", sub: "毛绒角色" },
+  { cat: "illustration", sub: "表现主义肖像" },
   { cat: "ip", sub: "AI Bot IP 角色设计" },
   { cat: "ops" },
   { cat: "poster", sub: "拼贴海报" },
@@ -41,7 +43,9 @@ const homeSections = [
   { cat: "illustration", sub: "夸张" },
   { cat: "poster", sub: "科技海报" },
   { cat: "ops", sub: "KV海报" },
-  { cat: "app" }
+  { cat: "app" },
+  { cat: "illustration", sub: "超现实叙事" },
+  { cat: "ip", sub: "软雕塑角色" }
 ];
 
 const categoryIntros = {
@@ -900,6 +904,318 @@ const items = [
     ratio: "2 / 3",
     prompt:
       "生成一张国际3D IP 设计大师做的IP 竖版 2:3 的图片\n\n【角色基础设定】\n角色名称：NaNa\n形象描述：犀牛\n品牌主色：明黄色（高饱和度、活泼醒目，可与浅米色犄角/肚皮作低对比点缀）\n\n【造型结构】\n3D盲盒潮玩IP风格，头身比约1:1，头部圆润夸张，\nIP整体设计有夸张感，独特感，现代感，\n躯干饱满呈蛋形，四肢短促圆柱状，线条简洁流畅。\n面部特征极简，大号圆形眼睛，表情克制呆萌。\n全身哑光磨砂软胶质感，无高光无反射，\n配色控制在2-3色，局部色与主体色保持低对比度和谐关系。\n柔和摄影棚散射光，无强投影，商业产品级渲染精度。\n\n【整体版式】\n竖版白色为基础底色，\n2个区块上下堆叠排列，\n整体风格干净专业，类似潮玩品牌官方角色设定发布页。\n\n区块一——Hero Banner（占总高约60%）：\n背景填充品牌主色（与角色主体颜色一致的饱和色块），\n左上角放置角色英文名，粗体大字，白色或深色，\n名称下方配2-3行小字角色简介，字体轻盈，\n右侧呈现角色上半身或四分之三视角特写，\n角色体积占Banner右侧60%以上，底部自然溢出Banner边界，\n形成裁切感构图，氛围活泼。\n\n区块二——多视图（占总高约40%）：\n浅灰色或白色圆角矩形卡片，卡片有细描边，\n卡片顶部左对齐放置\"Multiview\"英文标题，\n卡片内横向等距排列四个角色视图，\n从左到右依次为正视图、侧视图、后视图、45°视图，\n四个角色等比例、等高度、纯白底，无阴影。"
+  },
+  {
+    image: "./assets/ip/soft-sculpture/lavender-sherpa-and-shades.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D designer-toy portrait of a broad-shouldered man standing with his arms folded. Give him a close buzz cut, thick oval black sunglasses, a black stud earring, and a huge tightly curled black beard and mustache. Dress him in an oversized pale lavender sherpa jacket with balloon sleeves and black buttons, wide cropped black trousers, and exaggerated black lug-sole boots. Use a slightly low camera angle against a seamless vermilion-orange studio backdrop. Light the curled fleece and beard to bring out their texture against the smooth matte face and boots."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/silver-bob-record-collector.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 three-quarter-view portrait of a relaxed 3D designer-toy record collector, framed from the head to the upper thighs. Give him a silver-lavender wavy bob with a full fringe, chunky periwinkle visor sunglasses with dark lenses, a dark beard, and a subtle smile. Dress him in a fuzzy cobalt sweater with oversized sleeves and cream trousers. Have him cradle a black vinyl record tilted toward the camera, with a pale blue center label and several chunky silver rings visible on his fingers. Use an icy-blue seamless backdrop and soft diffuse light to reveal the fine sweater fibers and concentric record grooves."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/lavender-curls-skater.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D designer-toy portrait of a laid-back skater sitting on a low pale concrete block. Give him a cloud of springy lavender curls, oversized round white glasses, half-lidded eyes, a long coral nose, a small black mustache, and a lopsided grin. Dress him in an oversized cobalt-and-ivory striped knit sweater, wide cobalt trousers, and chunky cream sneakers. Rest a black skateboard with a layered wood edge and cream wheels across his lap, with one hand draped over the deck. Use a three-quarter view, a pale periwinkle studio background, and soft light to separate the yarn, curls, matte skin, and concrete."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/neon-knit-mechanic.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body portrait of a mischievous 3D designer-toy mechanic. Give her matte coral skin, cobalt eye makeup, silver ear and septum rings, and pale lavender hair with blunt bangs, two pointed tufts, and thick braids that curl outward. Dress her in an oversized neon-chartreuse cable-knit turtleneck with cobalt motifs, a blue tool harness and coiled cable, and matching lace-up boots with enormous white lug soles. Let a long blue adjustable wrench hang beside one leg. Use a seamless periwinkle set and diffused light that reveals the yarn fibers, molded skin, and metal hardware."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/cobalt-puffer-fashion.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D fashion portrait of a platinum-blonde figure with blunt bangs and sculpted waves, chin lowered and blue eyes looking up. Build an oversized electric-blue coat from interlocking, velvety padded lobes that swell around the shoulders and sleeves. Add a vivid orange top, an asymmetric chartreuse pleated skirt, an orange sock, and chunky ivory platform sneakers. Drape a glittery violet mini bag on a fine silver crossbody chain and put a black phone in one hand. Center the figure against a seamless lavender-blue backdrop with soft studio light that defines each padded volume."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/sparkler-devil.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body portrait of a lanky purple 3D designer-toy devil holding a lit sparkler beside his head. Give him two tall black horns curving upward, pointed ears, indigo curls, amber half-lidded eyes, a crooked smile, and an arrow-tipped tail curling out to one side. Dress him in an oversized cobalt chunky-knit sweater covered in yellow and orange stars, a black studded belt, cuffed blue jeans with a ripped knee, and ivory fleece slippers. Use a seamless golden-orange studio set, warm rim light, and distinct textures for the knit stitches, matte skin, and smooth horns."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/blue-hoodie-stare.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D designer-toy portrait of a shaved-headed character hunched on a low white folding stool, knees apart and hands clasped inside enormous white cuffs. Give him a cobalt-blue balloon-sleeved hoodie, matching shorts, white sneakers, prominent ears, and sharply angled brows for a defiant stare. Center the full body low in the frame against a seamless cornflower-blue studio backdrop. Use smooth matte soft-vinyl surfaces, diffused light, and a gentle floor shadow."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/redhead-in-black.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 studio portrait of a stylized 3D collectible with chunky copper curls, drooping eyes, a long nose, and a weary expression. Seat him low with his knees bent, one cheek resting in his palm and the other hand hanging loosely over his knee. Dress him in a roomy black suit with wide trousers and plain black shoes. Use a three-quarter full-body composition, a seamless off-white background, matte sculpted surfaces, and soft shadows that preserve the folds of the black fabric."
+  },
+  {
+    image: "./assets/ip/soft-sculpture/spa-day-elder.webp",
+    cat: "ip",
+    sub: "软雕塑角色",
+    ratio: "2 / 3",
+    prompt:
+      "Render a grumpy elderly spa guest as a rounded 3D designer toy in a vertical 2:3 studio portrait. Give him an enormous cloudlike white beard and mustache, a tall white towel turban, a padded white bathrobe, and oversized matching slippers. Seat him with knees together and a cucumber slice pinched in each fist, looking sideways under heavy brows. Set the ivory figure against a saturated cornflower-blue seamless backdrop with soft side lighting and a faint grounding shadow."
+  },
+  {
+    image: "./assets/ip/plush-characters/cloud-knit-dog-walker.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D fashion-toy portrait of an eccentric dog walker with cloud-white hair, white cat-eye frames with reddish lenses, and sculptural round earrings. Wrap the character in an enormous ivory coat made of thick, loosely braided wool, over pale trousers and colorful chunky shoes. Lead three tiny fluffy white dogs on fine white leashes across the bottom of the frame. Use a deep cobalt seamless background and diffuse studio lighting that brings out the oversized knit stitches."
+  },
+  {
+    image: "./assets/ip/plush-characters/orange-haired-guitarist.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Render a lanky 3D toy musician perched on butter-yellow steps, with a long nose, an orange halo of curly hair, white over-ear headphones, and a shaggy lilac knit top. Put a small cobalt electric guitar across his lap, loose cream trousers over chunky tan sneakers, and a miniature amp beside him. Frame the full body vertically at 2:3 against a pale sky-blue set with a diagonal stair rail. Light the curls, yarn loops, and suede-like footwear with gentle daylight."
+  },
+  {
+    image: "./assets/ip/plush-characters/pink-afro-lounge.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 seated fashion portrait of a stylized 3D doll whose giant cotton-candy-pink afro dominates the upper half of the frame. Add narrow pink oval glasses, silver statement earrings, a bored sideways stare, and an oversized powder-blue fuzzy knit sweater over pale jeans. Sink her into a lime-green chair and keep the blue setting understated. Use soft frontal light, sculpted facial features, and a fine halo of flyaway plush fibers."
+  },
+  {
+    image: "./assets/ip/plush-characters/green-punk-florist.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 waist-up 3D character portrait of a scowling florist with spiky grass-green hair, thick green brows and mustache, a very long pink nose, and a small nose ring. Dress him in a textured green knit cardigan and gray-green fingerless gloves. Give him a small sprig to hold and surround him with dense pink, yellow, orange, and violet flowers against a clear blue sky. Use shallow depth of field and soft daylight to separate the tactile yarn and hair from the floral backdrop."
+  },
+  {
+    image: "./assets/ip/plush-characters/ringside-orange-juice.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D character portrait of a compact, sulky figure sipping orange juice through a straw beside white boxing-ring ropes. Give her a sharp cobalt-blue cat-ear-shaped hairstyle, large white disc earrings, a pale pink fuzzy outfit with balloon sleeves, and oversized multicolor running shoes. Use a low full-body framing with a pale blue background and a warm ivory ring floor. Render fine fuzzy fibers, soft studio shadows, and a dry sideways glare."
+  },
+  {
+    image: "./assets/ip/plush-characters/blue-coat-fashion-grande-dame.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D fashion portrait of a stern older doll with an enormous cloud-white bouffant, angular white cat-eye glasses, and chunky gold earrings. Bundle her in an oversized cobalt teddy coat with a broad collar and a white tasseled tie, with only tiny pale pointed shoes peeking underneath. Set her against a minimal cool-gray interior with a subtle blue accent. Emphasize the dense brushed-pile texture and soft, even studio lighting."
+  },
+  {
+    image: "./assets/ip/plush-characters/cobalt-skate-kid.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D collectible portrait of a mischievous young skater with an electric-blue bowl cut, sharply slanted brows, and silver hoop earrings. Seat the figure low in an oversized fuzzy cobalt-and-white striped sweater and heavy white platform sneakers, sipping through a straw from a small cup. Let the skateboard and its pale wheels peek out behind the figure on the right. Use a periwinkle seamless studio set with cool diffuse lighting and visible sweater fibers."
+  },
+  {
+    image: "./assets/ip/plush-characters/striped-sweater-drummer.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D character portrait of a relaxed drummer with tousled ivory hair, blue over-ear headphones, small orange-red sunglasses, and an oversized fuzzy cobalt sweater with broad white stripes. Sit him at a compact blue drum kit on white stands, one stick raised and the other poised over a drumhead. Add loose blue trousers, off-white sneakers, and a takeaway cup near the kit. Use a seamless sky-blue set with gentle side lighting and soft floor shadows."
+  },
+  {
+    image: "./assets/ip/plush-characters/orange-sherpa-basketball-fan.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D collectible portrait of a stocky basketball fan reclining on a small folding chair. Give him short blond curls, narrow wraparound sunglasses, and a bulbous tangerine sherpa outfit with varsity-blue lettering and the number 37. Add white socks, exaggerated cream high-tops, and a small cream-colored ball balanced on a raised finger. Use a three-quarter full-body view on a simple periwinkle backdrop with soft side lighting that catches the fleece pile."
+  },
+  {
+    image: "./assets/ip/plush-characters/periwinkle-cloud-head.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D art-toy portrait of a tiny seated character under an enormous horizontal oval of fluffy periwinkle hair. Let only a sliver of the pink face and tired eyes show under the hair. Match the hair with a pear-shaped fuzzy blue sweater and enormous ribbed cuffs, then contrast them with skinny pink shins and huge white sneakers. Center the nearly symmetrical silhouette on a pale blue seamless set with soft, cool lighting and delicate rim-lit fibers."
+  },
+  {
+    image: "./assets/ip/plush-characters/butter-yellow-ponytail.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D fashion-toy portrait of a woman with an enormous butter-yellow fuzzy ponytail, a matching oversized knit sweater, and white platform sneakers. Sit her cross-legged on a low blue trackside bench with a red-orange drink and a straw, looking sideways from under half-lowered lids. Use a saturated royal-blue sports set with crisp white lane lines, a three-quarter view, and soft light on the wool and fleece."
+  },
+  {
+    image: "./assets/ip/plush-characters/cream-knit-mustache.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 full-body 3D portrait of a portly toy figure in a nearly monochrome palette of oatmeal and cream. Give him a wide horizontal tuft of curly fleece hair, a dramatic curled mustache, and half-lidded pink eyes. Dress him in an oversized cable-knit turtleneck and tapered beige trousers, and place a miniature white teacup in one hand. Set the upright figure against a muted blue-gray studio background with diffuse light that distinguishes the yarn, curls, and matte skin."
+  },
+  {
+    image: "./assets/ip/plush-characters/scarlet-coat-violinist.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 3D fashion-toy portrait of a sharp-eyed violinist with a glossy black bob and blunt bangs, seated cross-legged on a pale block. Dress her in an oversized scarlet plush coat and tall black platform boots. Place a saturated cobalt violin at her shoulder, with the blue bow cutting diagonally across the composition. Use a clean pale periwinkle backdrop, a centered full-body view, and soft studio light that separates the fuzzy coat from the smooth boots and instrument."
+  },
+  {
+    image: "./assets/ip/plush-characters/plush-illustrator-and-puppy.webp",
+    cat: "ip",
+    sub: "毛绒角色",
+    ratio: "2 / 3",
+    prompt:
+      "Create a vertical 2:3 cozy 3D character scene of a curly-haired illustrator drawing on a tablet with a stylus, seated in a rounded cream beanbag with a tiny white fluffy dog tucked beside her. Give her blue-and-white headphones, white sunglasses perched on her head, a cobalt fuzzy sweater with a white daisy on the sleeve, loose cream pants, and white sneakers with blue stripes. Add stacked books, a daisy mug, a blue dome lamp, and a monstera against a cornflower-blue room. Use soft daylight and tactile knit and fleece textures."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/three-coats-at-dusk.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal fashion scene with three figures seen from behind at dusk, shoulder to shoulder in oversized orange coats patterned with ragged black and navy diamonds. Let bare lower legs and pale boots emerge beneath the repeating silhouettes. Place them among dark green rolling hills and tall yellow buds, with a pale moon in a salmon-orange sky and a heavy charcoal cloud. Use opaque gouache-like paint, visible broad strokes, flattened perspective, and a quiet folk-tale mood."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/witch-in-leopard-coat.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 storybook fashion portrait of a pale woman with long blue-black hair, red cheeks, and a broad, drooping black witch hat. Let her oversized warm-ochre leopard coat fill the foreground, patterned with irregular black rings and turned up at the collar. Frame her looking back over one shoulder among tall orange flowers against dark, moss-green woodland. Use opaque gouache-like layering, visible dry-brush edges, and a moody palette of ink black, ochre, and burnt orange."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/unicorn-and-orange-blossoms.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 fairy-tale portrait of a solemn orange-haired figure in a tiny gold crown, a blue-and-cream ruff, and a large green-and-ivory checkerboard cloak. Place a white unicorn close behind her shoulder, with its long face beside hers and its horn pointing toward the upper-right corner. Fill the center with a small bouquet of orange flowers and use a flat deep teal background. Render the scene with irregular gouache-like brushwork and a quiet, direct gaze."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/man-and-watching-lamp.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal interior with a solemn mustached man sitting stiffly in a forest-green armchair. Give him a blunt black bob, an oversized brown leopard-print coat, narrow cream pinstriped trousers, and black shoes. Place an orange floor lampshade with a single large painted eye to his right, above a red and blue patterned rug. Use a warm rust wall, a frontal composition, flattened perspective, and layered matte brush marks for a dry, uncanny sense of humor."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/blue-faced-striped-portrait.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 expressionist bust portrait of a weary figure with a swept black crop, a long angular lavender-blue face, oversized coral ears and nose, and downturned yellow-orange eyelids. Turn the shoulders away while the face tilts back toward the viewer. Fill the lower half with a black-and-ivory striped jacket with a lime-green collar against a solid midnight-blue background. Use matte gouache-like color, visible paper grain, and rough, confident brush edges."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/orange-bob-blue-glasses.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 expressionist bust of an aloof man with a geometric orange bob, oversized square cobalt glasses, a long rose-pink nose, and a curled dark handlebar mustache. Dress him in a high-neck sweater with wide navy and slate-blue stripes that curve over his shoulders. Turn the bust slightly while keeping his eyes near the center. Use a deep forest-green ground, opaque paint, and soft dry-brush grain."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/dandy-and-blue-anemone.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 expressionist portrait of a mustached dandy tilting his long coral nose upward to smell a pale blue anemone. Let the flower and its tall green stem rise along the left side of his face. Give him swept black hair, a single upturned green eye, an orange ribbed shirt, a black bow tie, and a bold black-and-cream striped jacket. Use a flat ultramarine background, simplified shapes, and visible gouache-like brush texture."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/copper-curls-over-the-shoulder.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a tight vertical 2:3 three-quarter portrait of a suspicious man looking back over his shoulder. Give him flame-orange pin curls, a tangled copper beard, heavy green eyes, an exaggerated crimson nose, and freckled pink-violet skin. Let broad navy and lavender stripes on his jacket sweep diagonally across the lower-right corner. Use a dusty blue background, grainy opaque brushwork, and expressionist distortion of the facial planes."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/sunflower-coat-and-flames.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal bust portrait of a figure in a dark green coat densely patterned with orange sunflowers. Cover the head with a nearly featureless black hood and let curling orange and yellow flames rise around it like an uneven crown. Leave a narrow warm band of neck visible above the collar. Set the figure against textured midnight teal, with flattened forms, opaque gouache-like layers, and a strong warm-cool contrast."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/secret-in-the-blue-flowers.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal garden scene in which a dark-haired, black-bearded man peers out from a dense field of cobalt-blue flowers and tall olive stems. Give him an orange-and-cream gingham sleeve and one upright index finger pressed to his lips. Place his face just below center, with foreground petals overlapping the figure and dark foliage filling the entire frame. Use opaque gouache-like paint, a flattened botanical pattern, and textured petals with small yellow centers."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/starry-periwinkle-portrait.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 expressionist fashion bust of an aloof violet-blue figure with a sharply cut white bob and blunt fringe, coral nose and ears, and one heavy-lidded yellow eye in three-quarter view. Wrap the shoulders in a bulky black-and-electric-blue checkerboard coat with fuzzy painted edges. Scatter a handful of gold eight-point stars across the deep cobalt background. Use matte opaque paint, visible grain, and a controlled palette with strong color contrast."
+  },
+  {
+    image: "./assets/illustration/expressionist-portraits/ginger-crop-checkered-coat.webp",
+    cat: "illustration",
+    sub: "表现主义肖像",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 expressionist portrait of a gaunt figure looking back over one shoulder. Give him a closely cropped rust-orange bowl cut, tired pale blue eyes, a long red nose, a small hoop earring, and dark lips. Wrap his neck and shoulders in a sculptural black-and-off-white checkered coat that breaks into stripes along the sleeve. Use a textured deep petrol-blue background, opaque brushwork, and mottled pinks in the face."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/flying-oranges-at-the-market.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 comic market scene of a startled shopper in a vivid red-orange coat, with wild black hair, huge white hoop earrings, and one hand raised. Tilt an open brown paper grocery bag across the foreground as oranges tumble out and bounce through the air. Angle the storefront behind her and add fragments of hand-painted shop signage. Use exaggerated eyes, a diagonal composition, saturated vermilion and cobalt, and opaque, visibly brushed paint."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/headphones-on-the-commute.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal commuter scene with a shaggy-haired man wearing oversized silver headphones, blue rectangular glasses, and a pin-covered black leather jacket over a blue striped shirt. Give him a wide-open singing mouth and a small black dog with a pale muzzle in his lap. Pack the row behind him with deadpan passengers and repeat the orange framing and green seat backs. Use matte gouache-like color, expressive caricature, and a tightly cropped frontal composition."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/secret-in-the-pink-bells.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 surreal woodland close-up of a brown-bearded man hiding in dense foliage, with wide eyes glancing sideways and an index finger lifted to his lips. Surround him with tall blue flower spikes and repeated hanging pink bell-shaped blossoms with golden centers. Let leaves and stems cut across his hair and beard, keeping the face low in the frame. Use a near-black green ground, layered gouache-like strokes, and warm pink blossoms against cool blue stems."
+  },
+  {
+    image: "./assets/illustration/surreal-narrative/bouquet-in-the-doorway.webp",
+    cat: "illustration",
+    sub: "超现实叙事",
+    ratio: "2 / 3",
+    prompt:
+      "Paint a vertical 2:3 storybook scene of a wide-eyed, black-haired man with a huge dark mustache, standing in a coral-pink doorway in a cobalt coat. Give him a bouquet so large that blue anemones and coral-orange flowers hide most of his chest and rise around his face, with long green stems gathered in his arms. Let several curious faces peek from the room behind him. Use flattened perspective, saturated complementary colors, and grainy opaque brushwork for an awkward, affectionate mood."
   }
 ];
 
@@ -1015,7 +1331,7 @@ function renderHome() {
   grid.innerHTML = `
     <section class="home-hero" aria-labelledby="homeTitle">
       <h1 id="homeTitle">给互联网设计师的 AI 图片提示词灵感库</h1>
-      <p>覆盖 APP、运营、海报、插画与 IP 等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成</p>
+      <p>覆盖 APP、运营、海报、插画与 IP 等设计场景，每张图都配有可直接复制的 AI 提示词。</p>
     </section>
     <div class="home-sections">
       ${homeSections
